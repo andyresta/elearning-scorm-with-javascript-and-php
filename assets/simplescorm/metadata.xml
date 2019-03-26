@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xmlns:pkgprop="http://www.scorm.com/xsd/ScormEnginePackageProperties"
+     xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd 
+	 http://www.scorm.com/xsd/ScormEnginePackageProperties ScormEnginePackageProperties.xsd">
+
+    <general>
+        
+        <title>
+            <langstring>Service Excellent</langstring>
+        </title>
+        
+        <catalogentry>
+            <catalog>Catalog</catalog>
+            <entry>
+                <langstring>Course_ID1</langstring>
+            </entry>
+        </catalogentry>
+        
+        <language>en-US</language>
+
+        <description>
+					<langstring>Course Description.</langstring>
+		</description>
+        
+        
+            <keyword><langstring>Training</langstring></keyword>
+
+    </general>
+    <lifecycle>
+        
+        <version>
+            <langstring>1.0</langstring>
+        </version>
+        <status>
+            <source>
+                <langstring xml:lang="x-none">LOMv1.0</langstring>
+            </source>
+            <value>
+                <langstring xml:lang="x-none">Final</langstring>
+            </value>
+        </status>
+        <contribute>
+            <role>
+                <source>
+                    <langstring xml:lang="x-none">LOMv1.0</langstring>
+                </source>
+                <value>
+                    <langstring xml:lang="x-none">Author</langstring>
+                </value>
+            </role>
+            <centity>
+                <vcard>
+                    BEGIN:VCARD
+                    VERSION:2.1
+                    FN: Author
+ORG: Company
+EMAIL;PREF;INTERNET: author@company.com
+URL:  www.company.com
+
+                    END:VCARD
+                </vcard>
+            </centity>
+        </contribute>
+        <contribute>
+            <role>
+                <source>
+                    <langstring xml:lang="x-none">LOMv1.0</langstring>
+                </source>
+                <value>
+                    <langstring xml:lang="x-none">Publisher</langstring>
+                </value>
+            </role>
+            <centity>
+                <vcard>
+                    BEGIN:VCARD
+                    VERSION:2.1
+                    FN:Adobe Captivate
+                    NOTE: version 10.0.0.192             
+                    URL: http://www.adobe.com/products/captivate.html
+                    END:VCARD
+                </vcard>
+            </centity>
+        </contribute>
+        <contribute>
+            <role>
+                <source>
+                    <langstring xml:lang="x-none">LOMv1.0</langstring>
+                </source>
+                <value>
+                    <langstring xml:lang="x-none">Technical Implementer</langstring>
+                </value>
+            </role>
+            <centity>
+                <vcard>
+                    BEGIN:VCARD 
+VERSION:2.1 
+FN:SCORM Driver 
+ORG:Rustici Software,LLC 
+TEL;WORK;VOICE:1.615.376.9867 
+ADR;WORK:;;3351 Aspen Grove Dr. Suite 300;Franklin;TN;37067;United States of America  
+EMAIL;PREF;INTERNET:info@scorm.com 
+URL: http://scorm.com 
+END:VCARD
+                </vcard>
+            </centity>
+        </contribute>
+    </lifecycle>
+    <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+    </metametadata>
+    <technical>
+        <format>text/html</format>
+        <format>application/x-javascript</format>
+        <format>application/x-shockwave-flash</format>
+        <format>text/css</format>
+        <location>indexAPI.html</location>
+		
+        <pkgprop:ScormEnginePackageProperties xmlns="http://www.scorm.com/ScormEnginePackageProperties">
+            <appearance>
+                <displayStage>
+          
+                    <desired>
+                        <width>800</width>
+                        <height>600</height>
+                        <fullscreen>no</fullscreen>
+                    </desired>
+                    <required>
+                        <width>0</width>
+                        <height>0</height>
+                        <fullscreen>no</fullscreen>
+                    </required>
+                </displayStage>
+            </appearance>
+            <behavior>
+                <alwaysFlowToFirstSco>yes</alwaysFlowToFirstSco>
+                <scoreOverridesStatus>no</scoreOverridesStatus>
+            </behavior>
+
+        </pkgprop:ScormEnginePackageProperties>
+    </technical>
+    <rights>
+        <cost>
+            <source>
+                <langstring xml:lang="x-none">LOMv1.0</langstring>
+            </source>
+            <value>
+                <langstring xml:lang="x-none">yes</langstring>
+            </value>
+        </cost>
+        <copyrightandotherrestrictions>
+            <source>
+                <langstring xml:lang="x-none">LOMv1.0</langstring>
+            </source>
+            <value>
+                <langstring xml:lang="x-none">yes</langstring>
+            </value>
+        </copyrightandotherrestrictions>
+    </rights>
+    <classification>
+        <purpose>
+            <source>
+                <langstring xml:lang="x-none">LOMv1.0</langstring>
+            </source>
+            <value>
+                <langstring xml:lang="x-none">Educational Objective</langstring>
+            </value>
+        </purpose>
+        
+        <description>
+            <langstring>Course Description.</langstring>
+        </description>
+        
+        
+            <keyword><langstring>Training</langstring></keyword>
+
+    </classification>
+</lom>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest identifier="Course_ID1" version="1.0" 
+       xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+       xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                           http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                           http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<adlcp:location>metadata.xml</adlcp:location> 
+	</metadata>
+	<organizations default="Course_ID1_ORG">
+		<organization identifier="Course_ID1_ORG">
+			<title>Service Excellent</title>
+			<item identifier="SCO_ID1" isvisible="true" identifierref="SCO_ID1_RES">
+				<title>Memahami Kebutuhan Pelanggan</title>
+			</item>
+			<metadata>
+				<schema>ADL SCORM</schema>
+				<schemaversion>1.2</schemaversion>
+				<adlcp:location>metadata.xml</adlcp:location> 
+			</metadata>	
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="SCO_ID1_RES" type="webcontent" href="index_scorm.html" adlcp:scormtype="sco">
+			
+			<metadata>
+				<schema>ADL SCORM</schema>
+				<schemaversion>1.2</schemaversion>
+				<adlcp:location>metadata.xml</adlcp:location> 
+			</metadata>
+			
+			<file href="ar/2748351.mp3"/>
+		    <file href="index_scorm.html"/>
+			<file href="scormdriver.js"/>
+			<file href="browsersniff.js"/>
+			
+<file href="ar/2748978.mp3"/> 
+<file href="ar/2751900.mp3"/> 
+<file href="ar/2753314.mp3"/> 
+<file href="ar/2755116.mp3"/> 
+<file href="ar/2755870.mp3"/> 
+<file href="ar/2755902.mp3"/> 
+<file href="ar/2758227.mp3"/> 
+<file href="ar/2758483.mp3"/> 
+<file href="ar/2761695.mp3"/> 
+<file href="ar/2761828.mp3"/> 
+<file href="ar/2761874.mp3"/> 
+<file href="ar/2762529.mp3"/> 
+<file href="ar/2762660.mp3"/> 
+<file href="ar/2765041.mp3"/> 
+<file href="ar/2780430.mp3"/> 
+<file href="ar/2780436.mp3"/> 
+<file href="ar/2780439.mp3"/> 
+<file href="ar/2780442.mp3"/> 
+<file href="ar/2780445.mp3"/> 
+<file href="ar/2817307.mp3"/> 
+<file href="ar/2847900.mp3"/> 
+<file href="ar/2868509.mp3"/> 
+<file href="ar/2868523.mp3"/> 
+<file href="ar/Mouse.mp3"/> 
+<file href="assets/TOC_icons/collapseIcon.png"/> 
+<file href="assets/TOC_icons/expandIcon.png"/> 
+<file href="assets/TOC_icons/photo.png"/> 
+<file href="assets/css/CPLibraryAll.css"/> 
+<file href="assets/css/start/images/animated-overlay.gif"/> 
+<file href="assets/css/start/images/ui-bg_flat_55_999999_40x100.png"/> 
+<file href="assets/css/start/images/ui-bg_flat_75_aaaaaa_40x100.png"/> 
+<file href="assets/css/start/images/ui-bg_glass_45_0078ae_1x400.png"/> 
+<file href="assets/css/start/images/ui-bg_glass_55_f8da4e_1x400.png"/> 
+<file href="assets/css/start/images/ui-bg_glass_75_79c9ec_1x400.png"/> 
+<file href="assets/css/start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png"/> 
+<file href="assets/css/start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png"/> 
+<file href="assets/css/start/images/ui-bg_gloss-wave_75_2191c0_500x100.png"/> 
+<file href="assets/css/start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png"/> 
+<file href="assets/css/start/images/ui-icons_0078ae_256x240.png"/> 
+<file href="assets/css/start/images/ui-icons_056b93_256x240.png"/> 
+<file href="assets/css/start/images/ui-icons_d8e7f3_256x240.png"/> 
+<file href="assets/css/start/images/ui-icons_e0fdff_256x240.png"/> 
+<file href="assets/css/start/images/ui-icons_f5e175_256x240.png"/> 
+<file href="assets/css/start/images/ui-icons_f7a50d_256x240.png"/> 
+<file href="assets/css/start/images/ui-icons_fcd113_256x240.png"/> 
+<file href="assets/css/start/jquery-ui-1.11.4.custom.css"/> 
+<file href="assets/css/start/jquery-ui-1.11.4.custom.min.css"/> 
+<file href="assets/htmlimages/Pause.gif"/> 
+<file href="assets/htmlimages/Pause2x.gif"/> 
+<file href="assets/htmlimages/Play.gif"/> 
+<file href="assets/htmlimages/Play2x.gif"/> 
+<file href="assets/htmlimages/Play_icon.png"/> 
+<file href="assets/htmlimages/arrow_right.gif"/> 
+<file href="assets/htmlimages/ccClose.png"/> 
+<file href="assets/htmlimages/checkBox_disabled.png"/> 
+<file href="assets/htmlimages/checkBox_normal.png"/> 
+<file href="assets/htmlimages/checkBox_selected.png"/> 
+<file href="assets/htmlimages/checkBox_selectedDisabled.png"/> 
+<file href="assets/htmlimages/closeReviewButton.png"/> 
+<file href="assets/htmlimages/correct_answer_normal.png"/> 
+<file href="assets/htmlimages/correct_answer_small.png"/> 
+<file href="assets/htmlimages/correct_question_normal.png"/> 
+<file href="assets/htmlimages/correct_question_small.png"/> 
+<file href="assets/htmlimages/dd_arrow.png"/> 
+<file href="assets/htmlimages/expand_icon.png"/> 
+<file href="assets/htmlimages/expand_icon@2x.png"/> 
+<file href="assets/htmlimages/gesturemobileicon.png"/> 
+<file href="assets/htmlimages/gesturemobileicon@2x.png"/> 
+<file href="assets/htmlimages/gesturemobileimage2.png"/> 
+<file href="assets/htmlimages/gesturemobilelandscape.png"/> 
+<file href="assets/htmlimages/gesturetabletimage.png"/> 
+<file href="assets/htmlimages/hotspot.gif"/> 
+<file href="assets/htmlimages/hotspot_correct_answer_normal.png"/> 
+<file href="assets/htmlimages/hotspot_incorrect_answer_normal.png"/> 
+<file href="assets/htmlimages/img_trans.gif"/> 
+<file href="assets/htmlimages/incorrect_answer_normal.png"/> 
+<file href="assets/htmlimages/incorrect_answer_small.png"/> 
+<file href="assets/htmlimages/incorrect_question_normal.png"/> 
+<file href="assets/htmlimages/incorrect_question_small.png"/> 
+<file href="assets/htmlimages/loader.gif"/> 
+<file href="assets/htmlimages/loader_transparent.gif"/> 
+<file href="assets/htmlimages/movieexpire.png"/> 
+<file href="assets/htmlimages/partial_correct_question_normal.png"/> 
+<file href="assets/htmlimages/partial_correct_question_small.png"/> 
+<file href="assets/htmlimages/placeholder.png"/> 
+<file href="assets/htmlimages/radioButton_disabled.png"/> 
+<file href="assets/htmlimages/radioButton_normal.png"/> 
+<file href="assets/htmlimages/radioButton_selected.png"/> 
+<file href="assets/htmlimages/radioButton_selectedDisabled.png"/> 
+<file href="assets/htmlimages/sequenceReview.png"/> 
+<file href="assets/htmlimages/skip_answer_normal.png"/> 
+<file href="assets/htmlimages/skip_answer_small.png"/> 
+<file href="assets/htmlimages/skip_question_normal.png"/> 
+<file href="assets/htmlimages/skip_question_small.png"/> 
+<file href="assets/htmlimages/toc.png"/> 
+<file href="assets/htmlimages/vidbg.png"/> 
+<file href="assets/htmlimages/vidfullscreen.png"/> 
+<file href="assets/htmlimages/vidpause.png"/> 
+<file href="assets/htmlimages/vidplay.png"/> 
+<file href="assets/htmlimages/vidrewind.png"/> 
+<file href="assets/htmlimages/vidslider.png"/> 
+<file href="assets/htmlimages/vidstop.png"/> 
+<file href="assets/htmlimages/vidvolume.png"/> 
+<file href="assets/htmlimages/vidvolume2.png"/> 
+<file href="assets/htmlimages/vidvolumemute.png"/> 
+<file href="assets/js/CPM.js"/> 
+<file href="assets/js/CPXHRLoader.js"/> 
+<file href="assets/js/jquery-1.11.3.min.js"/> 
+<file href="assets/toc/tocIcons/blankBookmark.png"/> 
+<file href="assets/toc/tocIcons/clear.png"/> 
+<file href="assets/toc/tocIcons/expander.png"/> 
+<file href="assets/toc/tocIcons/fullBookmark.png"/> 
+<file href="assets/toc/tocIcons/go.png"/> 
+<file href="assets/toc/tocIcons/infoClose.png"/> 
+<file href="assets/toc/tocIcons/moreinfo.png"/> 
+<file href="assets/toc/tocIcons/searchBtnNormal.png"/> 
+<file href="assets/toc/tocIcons/searchBtnSelect.png"/> 
+<file href="assets/toc/tocIcons/visited.png"/> 
+<file href="dr/img1.json"/> 
+<file href="dr/img2.json"/> 
+<file href="dr/img3.json"/> 
+<file href="dr/imgmd.json"/> 
+<file href="dr/loading.gif"/> 
+<file href="goodbye.html"/> 
+<file href="index_scorm.html"/> 
+<file href="project.txt"/> 
+<file href="Utilities.js"/> 
+		</resource>
+	</resources>
+</manifest>

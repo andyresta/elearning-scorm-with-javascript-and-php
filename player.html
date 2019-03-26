@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Scorm Player v1.2</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+  <div class="container">
+  <br/>
+  <nav class="navbar navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">SCORM V1.2 PLAYER</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br/>
+<div class="row">
+    <div class="col-sm">
+      <div class="card" >
+        <div class="card-header">
+          Event Log
+        </div>
+        <div class="card-body" id="debug" style="overflow-y: scroll;height:200px;max-height:200px;">
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-header">
+          Server Log
+        </div>
+        <div class="card-body" id="server_response" style="overflow-y: scroll;height:200px;max-height:200px;">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+      <form>
+
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Student ID</label>
+          <div class="col-sm-10">
+            <input type="text" id="studentid" value="uniqid123" class="form-control form-control-sm" id="inputEmail3" placeholder="Student ID">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Student Name</label>
+          <div class="col-sm-10">
+            <input type="text" id="studentname" value="andyresta" class="form-control form-control-sm" id="inputPassword3" placeholder="Student Name">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword4" id="scx" class="col-sm-2 col-form-label">Directory Scorm Launch</label>
+          <div class="col-sm-10">
+            <input type="text" value="http://localhost/~andyresta/elearning-scorm-with-javascript-and-php/assets/simplescorm" class="form-control form-control-sm" id="scormlaunchdir" placeholder="Directory Scorm Launch">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword4" id="scl" class="col-sm-2 col-form-label">File Scorm Launch</label>
+          <div class="col-sm-10">
+            <input type="text" value="http://localhost/~andyresta/elearning-scorm-with-javascript-and-php/assets/simplescorm/index_scorm.html" class="form-control form-control-sm" id="scormlaunchfile" placeholder="File Scorm Launch">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword4" id="sca" class="col-sm-2 col-form-label">PHP Server </label>
+          <div class="col-sm-10">
+            <input type="text" value="trackdata.php" class="form-control form-control-sm" id="server" placeholder="server to track data">
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-12">
+            <button type="button" onclick="document.getElementById('debug').innerHTML='';Utils.launchSCO(); return false;" class="btn btn-primary" style="float:right;">Play Scorm</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/js/scormplayer_v1.2.js" type="text/javascript"></script>
+</html>
